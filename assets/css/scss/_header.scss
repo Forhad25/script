@@ -1,0 +1,33 @@
+ 
+#header-area{
+        background-color: $bg-light;
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0 0 10px #ddd;
+    .navbar-brand{
+        img{
+            max-width: 200px;
+        }
+    } 
+
+    #main-menu{
+        ul{
+            li{
+                a{
+                    font-size: 18px;
+                    text-transform: capitalize;
+                    font-weight: $font-md;
+                    &:hover{
+                        color: $primary-color;
+                    }
+                    &.active{
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navbar-toggler:focus {
+	 box-shadow: none;
+}

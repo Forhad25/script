@@ -1,0 +1,111 @@
+/* responsive code for laptop */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+}
+
+/* responsive code for tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #carousel-area h2 {
+        font-size: 40px;
+    }
+
+    #carousel-area p {
+        font-size: 18px;
+    }
+
+    .btn-hero {
+        padding: 10px 20px;
+    }
+
+    #service-area, #work-area, #project-area, #team-area {
+        padding: 30px 0 !important;
+    }
+
+    #team-area .card-body {
+        width: 100%;
+    }
+
+    #team-area ul.social {
+        margin: 0 0 50px;
+        padding: 0 0px 0 0;
+    }
+  
+    #team-area .card-body {
+        height: 320px;
+    
+    }
+}
+
+/* responsive code for mobile */
+
+@media only screen and (max-width: 767px) {
+
+    #header-area .navbar-brand img {
+        max-width: 160px;
+    }
+
+    #carousel-area h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #carousel-area p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #carousel-area button i {
+        font-size: 18px;
+    }
+
+    .carousel-control-prev {
+        left: -15px;
+        top: 40px;
+    }
+
+    .carousel-control-next {
+        right: -15px;
+        top: 40px;
+    }
+  
+
+    .btn-hero {
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+
+    #service-area .col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    #service-area, #work-area, #project-area, #team-area {
+        padding: 20px 0 !important;
+    }
+
+    #about-area, #work-area, #project-area, #team-area {
+        text-align: center;
+    }
+
+    #about-area a {
+        margin-bottom: 20px;
+    }
+
+    #newslatter-area h4 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    #footer-area {
+        img{
+            width: 70%;
+        }
+    }
+
+    .title-md {
+        font-size: 40px;
+    }
+
+}
+
+ 
